@@ -1,0 +1,40 @@
+.nav-container{
+    height: 80px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F7FB;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right{
+    text-transform: capitalize;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right span{
+    font-style: italic;
+}
+
+.signout{
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px lightgray;
+}

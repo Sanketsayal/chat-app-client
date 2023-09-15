@@ -1,0 +1,12 @@
+.container{
+    /* border: 2px solid black; */
+    height: calc(100vh - 120px);
+    padding: 20px;
+}
+
+.inner{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
